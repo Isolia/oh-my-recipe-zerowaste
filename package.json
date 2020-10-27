@@ -1,0 +1,22 @@
+{
+  "name": "oh-my-recipe",
+  "version": "1.0.0",
+  "description": "Simplify and group together recipes for homemade beauty and household products.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isolia/oh-my-recipe-zerowaste.git"
+  },
+  "author": "Isolia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Isolia/oh-my-recipe-zerowaste/issues"
+  },
+  "homepage": "https://github.com/Isolia/oh-my-recipe-zerowaste#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
