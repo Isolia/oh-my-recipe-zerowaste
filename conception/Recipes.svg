@@ -1,0 +1,149 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="488" height="474" view_box="0 0 488 474"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Tue, 27 Oct 2020 06:34:49</desc>
+
+<rect id="frame" x="0" y="0" width="488" height="474" fill="#f7f7f7" stroke="none" stroke-width="0"/>
+
+<!-- Association USER_HAS_FAVORITE_RECIPE -->
+<line x1="262" y1="68" x2="262" y2="245" stroke="#9970ab" stroke-width="2"/>
+<text x="267.0" y="144" fill="#1b7837" font-family="Verdana" font-size="12">0,N</text>
+<line x1="72" y1="245" x2="262" y2="245" stroke="#9970ab" stroke-width="2"/>
+<text x="134" y="237.0" fill="#1b7837" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-USER_HAS_FAVORITE_RECIPE">
+	<path d="M 349 211 a 14 14 90 0 1 14 14 V 236 h -202 V 225 a 14 14 90 0 1 14 -14" fill="#c2a5cf" stroke="#c2a5cf" stroke-width="0"/>
+	<path d="M 363 236.0 v 29 a 14 14 90 0 1 -14 14 H 175 a 14 14 90 0 1 -14 -14 V 236.0 H 202" fill="#e7d4e8" stroke="#e7d4e8" stroke-width="0"/>
+	<rect x="161" y="211" width="202" height="68" fill="none" rx="14" stroke="#9970ab" stroke-width="2"/>
+	<line x1="161" y1="236" x2="363" y2="236" stroke="#9970ab" stroke-width="1"/>
+	<text x="168" y="228.7" fill="#000000" font-family="Verdana" font-size="12">USER_HAS_FAVORITE_RECIPE</text>
+	<text x="168" y="253.8" fill="#000000" font-family="Verdana" font-size="12">recipe_id</text>
+	<text x="168" y="270.8" fill="#000000" font-family="Verdana" font-size="12">user_id</text>
+</g>
+
+<!-- Association RECIPE_HAS_TAG -->
+<line x1="72" y1="245" x2="72" y2="431" stroke="#9970ab" stroke-width="2"/>
+<text x="45.0" y="389" fill="#1b7837" font-family="Verdana" font-size="12">1,N</text>
+<line x1="262" y1="431" x2="72" y2="431" stroke="#9970ab" stroke-width="2"/>
+<text x="212" y="448.0" fill="#1b7837" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-RECIPE_HAS_TAG">
+	<path d="M 121 397 a 14 14 90 0 1 14 14 V 422 h -126 V 411 a 14 14 90 0 1 14 -14" fill="#c2a5cf" stroke="#c2a5cf" stroke-width="0"/>
+	<path d="M 135 422.0 v 29 a 14 14 90 0 1 -14 14 H 23 a 14 14 90 0 1 -14 -14 V 422.0 H 126" fill="#e7d4e8" stroke="#e7d4e8" stroke-width="0"/>
+	<rect x="9" y="397" width="126" height="68" fill="none" rx="14" stroke="#9970ab" stroke-width="2"/>
+	<line x1="9" y1="422" x2="135" y2="422" stroke="#9970ab" stroke-width="1"/>
+	<text x="16" y="414.7" fill="#000000" font-family="Verdana" font-size="12">RECIPE_HAS_TAG</text>
+	<text x="16" y="439.8" fill="#000000" font-family="Verdana" font-size="12">recipe_id</text>
+	<text x="16" y="456.8" fill="#000000" font-family="Verdana" font-size="12">tag_id</text>
+</g>
+
+<!-- Association IS_WRITTEN -->
+<line x1="262" y1="68" x2="432" y2="68" stroke="#9970ab" stroke-width="2"/>
+<text x="303" y="85.0" fill="#1b7837" font-family="Verdana" font-size="12">0,N</text>
+<line x1="432" y1="245" x2="432" y2="68" stroke="#9970ab" stroke-width="2"/>
+<text x="437.0" y="203" fill="#1b7837" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-IS_WRITTEN">
+	<path d="M 465 43 a 14 14 90 0 1 14 14 V 68 h -94 V 57 a 14 14 90 0 1 14 -14" fill="#c2a5cf" stroke="#c2a5cf" stroke-width="0"/>
+	<path d="M 479 68.0 v 11 a 14 14 90 0 1 -14 14 H 399 a 14 14 90 0 1 -14 -14 V 68.0 H 94" fill="#e7d4e8" stroke="#e7d4e8" stroke-width="0"/>
+	<rect x="385" y="43" width="94" height="50" fill="none" rx="14" stroke="#9970ab" stroke-width="2"/>
+	<line x1="385" y1="68" x2="479" y2="68" stroke="#9970ab" stroke-width="1"/>
+	<text x="392" y="60.7" fill="#000000" font-family="Verdana" font-size="12">IS_WRITTEN</text>
+</g>
+
+<!-- Association CONCERS -->
+<line x1="72" y1="245" x2="432" y2="431" stroke="#9970ab" stroke-width="2"/>
+<text x="134" y="270.484671199" fill="#1b7837" font-family="Verdana" font-size="12">0,N</text>
+<line x1="432" y1="245" x2="432" y2="431" stroke="#9970ab" stroke-width="2"/>
+<text x="437.0" y="296" fill="#1b7837" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-CONCERS">
+	<path d="M 455 406 a 14 14 90 0 1 14 14 V 431 h -74 V 420 a 14 14 90 0 1 14 -14" fill="#c2a5cf" stroke="#c2a5cf" stroke-width="0"/>
+	<path d="M 469 431.0 v 11 a 14 14 90 0 1 -14 14 H 409 a 14 14 90 0 1 -14 -14 V 431.0 H 74" fill="#e7d4e8" stroke="#e7d4e8" stroke-width="0"/>
+	<rect x="395" y="406" width="74" height="50" fill="none" rx="14" stroke="#9970ab" stroke-width="2"/>
+	<line x1="395" y1="431" x2="469" y2="431" stroke="#9970ab" stroke-width="1"/>
+	<text x="402" y="423.7" fill="#000000" font-family="Verdana" font-size="12">CONCERS</text>
+</g>
+
+<!-- Association CREATED -->
+<line x1="262" y1="68" x2="72" y2="68" stroke="#9970ab" stroke-width="2"/>
+<text x="199" y="85.0" fill="#1b7837" font-family="Verdana" font-size="12">0,N</text>
+<line x1="72" y1="245" x2="72" y2="68" stroke="#9970ab" stroke-width="2"/>
+<text x="77.0" y="110" fill="#1b7837" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-CREATED">
+	<path d="M 94 43 a 14 14 90 0 1 14 14 V 68 h -72 V 57 a 14 14 90 0 1 14 -14" fill="#c2a5cf" stroke="#c2a5cf" stroke-width="0"/>
+	<path d="M 108 68.0 v 11 a 14 14 90 0 1 -14 14 H 50 a 14 14 90 0 1 -14 -14 V 68.0 H 72" fill="#e7d4e8" stroke="#e7d4e8" stroke-width="0"/>
+	<rect x="36" y="43" width="72" height="50" fill="none" rx="14" stroke="#9970ab" stroke-width="2"/>
+	<line x1="36" y1="68" x2="108" y2="68" stroke="#9970ab" stroke-width="1"/>
+	<text x="43" y="60.7" fill="#000000" font-family="Verdana" font-size="12">CREATED</text>
+</g>
+
+<!-- Entity COMMENT -->
+<g id="entity-COMMENT">
+	<g id="frame-COMMENT">
+		<rect x="395" y="211" width="74" height="25" fill="#a6dba0" stroke="#a6dba0" stroke-width="0"/>
+		<rect x="395" y="236.0" width="74" height="43" fill="#d9f0d3" stroke="#d9f0d3" stroke-width="0"/>
+		<rect x="395" y="211" width="74" height="68" fill="none" stroke="#5aae61" stroke-width="2"/>
+		<line x1="395" y1="236" x2="469" y2="236" stroke="#5aae61" stroke-width="1"/>
+	</g>
+	<text x="400" y="228.7" fill="#000000" font-family="Verdana" font-size="12">COMMENT</text>
+	<text x="400" y="253.8" fill="#000000" font-family="Verdana" font-size="12">id</text>
+	<line x1="400" y1="256" x2="412" y2="256" stroke="#000000" stroke-width="1"/>
+	<text x="400" y="270.8" fill="#000000" font-family="Verdana" font-size="12">text</text>
+</g>
+
+<!-- Entity TAG -->
+<g id="entity-TAG">
+	<g id="frame-TAG">
+		<rect x="239" y="397" width="46" height="25" fill="#a6dba0" stroke="#a6dba0" stroke-width="0"/>
+		<rect x="239" y="422.0" width="46" height="43" fill="#d9f0d3" stroke="#d9f0d3" stroke-width="0"/>
+		<rect x="239" y="397" width="46" height="68" fill="none" stroke="#5aae61" stroke-width="2"/>
+		<line x1="239" y1="422" x2="285" y2="422" stroke="#5aae61" stroke-width="1"/>
+	</g>
+	<text x="249" y="414.7" fill="#000000" font-family="Verdana" font-size="12">TAG</text>
+	<text x="244" y="439.8" fill="#000000" font-family="Verdana" font-size="12">id</text>
+	<line x1="244" y1="442" x2="256" y2="442" stroke="#000000" stroke-width="1"/>
+	<text x="244" y="456.8" fill="#000000" font-family="Verdana" font-size="12">name</text>
+</g>
+
+<!-- Entity RECIPE -->
+<g id="entity-RECIPE">
+	<g id="frame-RECIPE">
+		<rect x="15" y="118" width="114" height="25" fill="#a6dba0" stroke="#a6dba0" stroke-width="0"/>
+		<rect x="15" y="143.0" width="114" height="229" fill="#d9f0d3" stroke="#d9f0d3" stroke-width="0"/>
+		<rect x="15" y="118" width="114" height="254" fill="none" stroke="#5aae61" stroke-width="2"/>
+		<line x1="15" y1="143" x2="129" y2="143" stroke="#5aae61" stroke-width="1"/>
+	</g>
+	<text x="49" y="135.7" fill="#000000" font-family="Verdana" font-size="12">RECIPE</text>
+	<text x="20" y="160.7" fill="#000000" font-family="Verdana" font-size="12">id</text>
+	<line x1="20" y1="163" x2="32" y2="163" stroke="#000000" stroke-width="1"/>
+	<text x="20" y="177.7" fill="#000000" font-family="Verdana" font-size="12">title</text>
+	<text x="20" y="194.7" fill="#000000" font-family="Verdana" font-size="12">description</text>
+	<text x="20" y="211.7" fill="#000000" font-family="Verdana" font-size="12">ingredient</text>
+	<text x="20" y="228.7" fill="#000000" font-family="Verdana" font-size="12">equipment</text>
+	<text x="20" y="245.8" fill="#000000" font-family="Verdana" font-size="12">difficulty</text>
+	<text x="20" y="262.8" fill="#000000" font-family="Verdana" font-size="12">duration</text>
+	<text x="20" y="279.8" fill="#000000" font-family="Verdana" font-size="12">shelf_life</text>
+	<text x="20" y="296.8" fill="#000000" font-family="Verdana" font-size="12">preparation_step</text>
+	<text x="20" y="313.8" fill="#000000" font-family="Verdana" font-size="12">url</text>
+	<text x="20" y="330.8" fill="#000000" font-family="Verdana" font-size="12">img</text>
+	<text x="20" y="347.8" fill="#000000" font-family="Verdana" font-size="12">created_at</text>
+	<text x="20" y="364.8" fill="#000000" font-family="Verdana" font-size="12">update_at</text>
+</g>
+
+<!-- Entity USER -->
+<g id="entity-USER">
+	<g id="frame-USER">
+		<rect x="226" y="9" width="72" height="25" fill="#a6dba0" stroke="#a6dba0" stroke-width="0"/>
+		<rect x="226" y="34.0" width="72" height="93" fill="#d9f0d3" stroke="#d9f0d3" stroke-width="0"/>
+		<rect x="226" y="9" width="72" height="118" fill="none" stroke="#5aae61" stroke-width="2"/>
+		<line x1="226" y1="34" x2="298" y2="34" stroke="#5aae61" stroke-width="1"/>
+	</g>
+	<text x="245" y="26.7" fill="#000000" font-family="Verdana" font-size="12">USER</text>
+	<text x="231" y="51.7" fill="#000000" font-family="Verdana" font-size="12">id</text>
+	<line x1="231" y1="54" x2="243" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="231" y="68.8" fill="#000000" font-family="Verdana" font-size="12">username</text>
+	<text x="231" y="85.8" fill="#000000" font-family="Verdana" font-size="12">email</text>
+	<text x="231" y="102.8" fill="#000000" font-family="Verdana" font-size="12">password</text>
+	<text x="231" y="119.8" fill="#000000" font-family="Verdana" font-size="12">role</text>
+</g>
+</svg>
