@@ -63,4 +63,3 @@ COMMENT: id, text
 RECIPE_HAS_TAG, 1N RECIPE, 0N TAG: recipe_id, tag_id
 TAG: id, name
 CONCERS, 0N RECIPE, 11 COMMENT
-
