@@ -4,7 +4,9 @@
   "description": "Simplify and group together recipes for homemade beauty and household products.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/server.js",
+    "dev": "nodemon app/server.js"
   },
   "repository": {
     "type": "git",
